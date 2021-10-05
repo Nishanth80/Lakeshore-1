@@ -6,6 +6,8 @@
  */
 #import <React/RCTBridgeDelegate.h>
 #import <UIKit/UIKit.h>
+#import <CodePush/CodePush.h>
+return [CodePush bundleURL];
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, RCTBridgeDelegate>
 
